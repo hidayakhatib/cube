@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <!--- BOOTSTRAP --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    <!--- META --->
+    <title>hakushigo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="hakushigo">
+    <meta name="author" content="hakushigo">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hakushigo.me">
+    <meta property="og:description" content="Hakusigo's website, you need to scroll">
+    
+    <!--- GOOGLE FONT --->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Rubik&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <style>
+      .bottom-brand{
+        font-family : "Rubik";
+        font-size : 10pt;
+        color : rgba(000,000,000,.5);
+      }
+      .navbar-brand{
+        font-family : "Rubik";
+      }
+      .big-font{
+        font-family : "Bebas Neue";
+        font-size : 70px;
+      }
+      .big-title{
+        padding : 20vh 0;
+        text-align : center;
+        box-shadow: 0px 51px 74px -50px rgba(0,0,0,0.2);
+      }
+      body{
+        font-family : "Roboto";
+      }
+      a, a:hover{
+        color : black;
+        margin : 0 10px;
+      }
+      a:hover{
+        font-weight : bold;
+        text-decoration : none;
+      }
+      .secondthings{
+        padding : 10vh 100px;
+        
+      }
+      .card.lska{
+        border : none;
+        padding : 30px;
+        border-radius : 10px;
+      }
+      .stkg{
+        font-family : "Rubik";
+      }
+      .plsa{
+        margin-bottom : 50px;
+      }
+      .foot{
+        padding : 50px;
+        text-align : center;
+      }
+      .oligark{
+        color : rgba(000,000,000,.2);
+      }
+      .big-font.white-text{
+        color : white;
+      }
+      .st{
+        text-decoration : line-through;
+      }
+      .bg-dark{
+        background-color : rgb(000,000,000)!important;
+        color : white;
+        padding : 30px;
+      }
+    </style>
+  </head>
+  <body>
+      <nav class="navbar content-align-center">
+      <a class="navbar-brand mx-auto">
+        hakushigo.<b>home</b>
+      </a>
+    </nav>
+    <div class=" big-title">
+          <div class="col-12">
+            <h1 class="big-font">
+              Hello<br>
+              i'm michael<br>
+              a.k.a
+              <br>hakushigo
+              <span class="st"></span>
+            </h1>
+          </div>
+      </div>
+    <div class="foot">
+            <a href="/" >home</a>
+            <a href="http://github.com/hakushigo" >github</a>
+            <a href="#" >blog</a>
+            <a href="#" >API service</a>
+            <br><br>
+            <p class="bottom-brand">
+              Open source web page, &copy; 2020 hakushigo <b>Under MIT License</b>
+            </p>
+    </div>
+  </body>
+</html>
